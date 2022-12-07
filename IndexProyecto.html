@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Unidad 4</title>
+    <link rel="stylesheet" href="EstiloProyect.css" />
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="javas/owl.carousel.min.css" />
+    <script src="javas/jquery-scrolltofixed.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+  <i id="subir" class="fa-solid fa-chevron-up"></i>
+  <!-- header -->
+  <header>
+    <div class="cont ancho">
+      <div class="contacto">
+        <p><i class="fa-solid fa-location-dot"></i>  526 Melrose Street,New York.  </p>
+        <a href="mailto:info@example.com"><i class="fa-solid fa-envelope"></i>  info@example.com</a>
+        <a href="tel:50530722233"><i class="fa-solid fa-mobile-screen-button"></i>  +505 307 222-33</a>
+      </div>
+      <div class="redes">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+  </header>
+  <!-- Section -->
+  <section class="pegado">
+    <div class="menu ancho">
+      <div>
+        <figure>
+          <img src="imagenes/logo-black.png" alt="">
+        </figure>
+      </div>
+      <div class="navbar contmenu">
+        <div class="desplegable">
+          <button class="dropbtn">Home 
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div class="desplegable-content">
+            <a href="#">Home 1</a>
+            <a href="#">Home 2</a>
+            <a href="#">Home 3</a>
+          </div>
+        </div>
+        <a href="#about">About Us</a>
+        <div class="desplegable">
+          <button class="dropbtn">Services 
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div class="desplegable-content">
+            <a href="#">Services 1</a>
+            <a href="#">Services 2</a>
+            <a href="#">Services 3</a>
+            <a href="#">Services Details</a>
+          </div>
+        </div>
+        <div class="desplegable">
+          <button class="dropbtn">Project 
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div class="desplegable-content">
+            <a href="#">Project 1</a>
+            <a href="#">Project 2</a>
+            <a href="#">Project 3</a>
+            <a href="#">Project 4</a>
+          </div>
+        </div>
+        <div class="desplegable">
+          <button class="dropbtn">Pages 
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div class="desplegable-content">
+            <a href="#">Team</a>
+            <a href="#">Single Project</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="#">404 Error</a>
+            <a href="#">Coming Soon</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="desplegable">
+          <button class="dropbtn">Blog 
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div class="desplegable-content">
+            <a href="#">Blog Grid</a>
+            <a href="#">Blog Right Sidebar</a>
+            <a href="#">Blog Left Sidebar</a>
+            <a href="#">Blog Details</a>
+          </div>
+        </div>
+        <div class="desplegable">
+          <button class="dropbtn">Contact 
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <div class="desplegable-content">
+            <a href="#">Contact 1</a>
+            <a href="#">Contact 2</a>
+            <a href="#">Contact 3</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-xmark"></i>
+        <a href="#" id="Btn1" class="btn-principal">Get It Support</a>
+      </div>
+    </div>
+  </section>
+  <!-- modal -->
+<section id="modal" class="fondomodal">
+  <div class="contenidomodal">
+    <div class="estructuramodal">
+      <i id="cerrarbtn" class="cerrarmodal fa-solid fa-rectangle-xmark"></i>
+    </div>
+    <figure class="foto">
+      <img src="imagenes/logo-black.png" alt="" />
+      <img src="imagenes/banner-bg.jpg" alt="">
+    </figure>
+    <p class="modaltext">Somos la empresa financiera que nesesitas, ven y acercate a nosotros para que tu empresa pueda crecer</p>
+  </div>
+</section>
+  <!-- Slider -->
+<section class="contslider">
+    <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li>
+            <img src="imagenes/slider-1.jpg" alt="">
+            <p class="caption ancho">Quality IT Solutions & Digital Services Provide</p>
+            <p class="caption2">We are passionate about bringing enterprise-level productivity, scalability, and security to small and medium businesses.</p>
+            <a class="btn_more" id="Btn1" href="#">Contact Us</a>
+            <a class="btn_more" id="Btn1" href="#">IT Solution</a>
+            <div class="iconslider">
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-regular fa-circle"></i>
+              <i class="fa-regular fa-circle"></i>
+            </div>
+          </li>
+          <li>
+            <img src="imagenes/slider-2.jpg" alt="">
+            <p class="caption">We Provide Best Technology Solutions</p>
+            <p class="caption2">We are passionate about bringing enterprise-level productivity, scalability, and security to small and medium businesses.</p>
+            <a class="btn_more" id="Btn2" href="#">How it Works</a>
+            <a class="btn_more" id="Btn2" href="#">Contact Us</a>
+            <div class="iconslider">
+              <i class="fa-regular fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-regular fa-circle"></i>
+            </div>
+          </li>
+          <li>
+            <img src="imagenes/slider-3.jpg" alt="">
+            <p class="caption">Our IT Experience Ensures Your IT Success</p>
+            <p class="caption2">We are passionate about bringing enterprise-level productivity, scalability, and security to small and medium businesses.</p>
+            <a class="btn_more" id="Btn3" href="#">About Us</a>
+            <a class="btn_more" id="Btn3" href="#">Our Services</a>
+            <div class="iconslider">
+              <i class="fa-regular fa-circle"></i>
+              <i class="fa-regular fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </li>
+        </ul>
+    </div>
+</section>
+<!-- section 1 -->
+<section id="about">
+  <div class="parts ancho">
+    <div class="part1">
+      <figure>
+        <img src="imagenes/about.jpg" alt="">
+      </figure>
+    </div>
+    <div class="part2">
+      <h6>About Us</h6>
+			<h2>We Offer Professional IT Solutions For Your Business</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+			<ul class="about-box">
+				<li>
+					<div class="about-icon">
+						<figure><img src="imagenes/certificate-alt-1.svg" alt=""></figure>
+					</div>
+					<div class="about-info">
+						<h3>Certified Company</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor incididunt labore aliqua.</p>
+					</div>
+				</li>
+				<li>
+				  <div class="about-icon">
+						<figure><img src="imagenes/safety.svg" alt=""></figure>
+					</div>
+					<div class="about-info">
+						<h3>Quality IT Solutions</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor incididunt labore aliqua.</p>
+					</div>
+				</li>
+			</ul>
+    </div>
+  </div>
+</section>
+<!-- section 2 -->
+<section id="contactanos" class="parrallaxas">
+  <div>
+      <h2>We’re here to help and answer any question you might have.</h2>
+      <p>Free Consultation About Our IT Solutions For Your Business</p>
+      <a href="tel:080707555321" class="btn"> Get Free Consultation Now</a>
+    </div>
+</section>
+<!-- section 3 -->
+<section>
+  <div class="ancho">
+    <div class="services">
+      <div class="services1">
+          <a href="#0" class="services1-1">
+            <div class="services-icon">
+              <figure>
+                <img src="imagenes/machine.svg" alt="">
+              </figure>
+            </div>
+            <div class="services-info">
+              <h3>IT Solutions</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>
+          </a>
+      </div>
+      <div class="services1">
+        <a href="#0" class="services1-1">
+          <div class="services-icon">
+            <figure>
+              <img src="imagenes/devops.svg" alt="">
+            </figure>
+          </div>
+          <div class="services-info">
+            <h3>Digital Solutions</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+          </div>
+        </a>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- section 4 -->
+<section>
+  <div class="ancho">
+    <div class="single-box">
+        <div class="single-services-box">
+          <div class="serv-icon">
+            <figure>
+              <img src="imagenes/devops - copia.svg" alt="">
+            </figure>
+          </div>
+          <h3>Managed Services</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+          <div class="services-btn">
+            <a href="#" class="services-btn-one">Read More </a>
+          </div>
+        </div>
+        <div class="single-services-box">
+          <div class="serv-icon">
+            <figure>
+              <img src="imagenes/machine - copia.svg" alt="">
+            </figure>
+          </div>
+          <h3>Cyber Security</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+          <div class="services-btn">
+            <a href="#" class="services-btn-one">Read More </a>
+          </div>
+        </div>
+        <div class="single-services-box">
+          <div class="serv-icon">
+            <figure>
+              <img src="imagenes/microservice.svg" alt="">
+            </figure>
+          </div>
+          <h3>Business Improvement</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+          <div class="services-btn">
+            <a href="#" class="services-btn-one">Read More </a>
+          </div>
+        </div>
+        <div class="single-services-box">
+          <div class="serv-icon">
+            <figure>
+              <img src="imagenes/cloudSecurity.svg" alt="">
+            </figure>
+          </div>
+          <h3>Professional Services</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+          <div class="services-btn">
+            <a href="#" class="services-btn-one">Read More </a>
+          </div>
+        </div>
+        <div class="single-services-box">
+          <div class="serv-icon">
+            <figure>
+              <img src="imagenes/iot.svg" alt="">
+            </figure>
+          </div>
+          <h3>Cloud Services</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+          <div class="services-btn">
+            <a href="#" class="services-btn-one">Read More </a>
+          </div>
+        </div>
+        <div class="single-services-box">
+          <div class="serv-icon">
+            <figure>
+              <img src="imagenes/migration.svg" alt="">
+            </figure>
+          </div>
+          <h3>Data Backup & Recovery</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
+          <div class="services-btn">
+            <a href="#" class="services-btn-one">Read More </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- botones -->
+<section>
+  <div class="contain ancho">
+    <a class="btn-principal" href="#">Get Free Quote</a>
+		<a class="btn-principal2" href="#">More Services</a>
+  </div>
+</section>
+<!-- section 5 -->
+<section class="cont1">
+  <div class="cont1-1 ancho">
+    <div>
+      <h2><span class="counter-number">20</span><span>+</span></h2>
+      <h3 class="counter-heading">Years In Business</h3>
+    </div>
+    <div>
+      <h2><span class="counter-number">1.2</span><span>k</span></h2>
+      <h3 class="counter-heading">Project Complete</h3>
+    </div>
+    <div>
+      <h2><span class="counter-number">750</span><span>+</span></h2>
+      <h3 class="counter-heading">Reviews</h3>
+    </div>
+    <div>
+      <h2><span class="counter-number">150</span><span>+</span></h2>
+      <h3 class="counter-heading">Team Members</h3>
+    </div>
+  </div>
+</section>
+<!-- section 6 -->
+<section>
+  <div class="ancho">
+    <div class="part4">
+      <h6>Inspire So Different?</h6>
+      <h2>Why Choose Us</h2>
+    </div>
+    <div class="whychoose">
+      <div class="whychoose-item">
+        <div class="whychoose-icon">
+          <span class="whychoose-number">1</span>
+        </div>
+        <div class="whychoose-info">
+            <h3>Highly Trained Technical Staff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+        </div>
+        <div class="whychoose-number-bg"><span>1</span></div>
+      </div>
+      <div class="whychoose-item">
+        <div class="whychoose-icon">
+          <span class="whychoose-number">2</span>
+        </div>
+        <div class="whychoose-info">
+            <h3>Increase Your Performance</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+        </div>
+        <div class="whychoose-number-bg"><span>2</span></div>
+      </div>
+      <div class="whychoose-item">
+        <div class="whychoose-icon">
+          <span class="whychoose-number">3</span>
+        </div>
+        <div class="whychoose-info">
+            <h3>Reduce Operational Downtime</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+        </div>
+        <div class="whychoose-number-bg"><span>3</span></div>
+      </div>
+      <div class="whychoose-item">
+        <div class="whychoose-icon">
+          <span class="whychoose-number">4</span>
+        </div>
+        <div class="whychoose-info">
+            <h3>Cross-Industry Expertise</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+        </div>
+        <div class="whychoose-number-bg"><span>4</span></div>
+      </div>
+      <div class="whychoose-item">
+        <div class="whychoose-icon">
+          <span class="whychoose-number">5</span>
+        </div>
+        <div class="whychoose-info">
+            <h3>Dedicated IT Support</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+        </div>
+        <div class="whychoose-number-bg"><span>5</span></div>
+      </div>
+      <div class="whychoose-item">
+        <div class="whychoose-icon">
+          <span class="whychoose-number">6</span>
+        </div>
+        <div class="whychoose-info">
+            <h3>Affordable Rates</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+        </div>
+        <div class="whychoose-number-bg"><span>6</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section 7 -->
+<section class="cont2">
+  <div class="ancho">
+    <div class="part5">
+      <h6>FEATURED WORKS</h6>
+      <h2>Latest Case Studies</h2>
+    </div>
+    <div class="project-item">
+      <div class="project-item-box">
+        <a href="#0">
+          <figure id="galeria" class="post-img">
+            <a href="imagenes/projects-1.jpg" class="fancybox" title="App Customization" rel="gallery1">
+              <img src="imagenes/projects-1.jpg" alt="">
+            </a>
+          </figure>
+          <div class="project-link-title-box">
+            <div>
+              <div class="project-link-flip-front">
+                <h3>App Customization</h3>
+              </div>
+              <div class="project-link-flip-back">
+                <h3>View Details</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="project-item-box">
+        <a  href="#0">
+          <figure id="galeria" class="post-img">
+            <a href="imagenes/projects-2.jpg" class="fancybox" title="Data Management" rel="gallery1">
+              <img src="imagenes/projects-2.jpg" alt="">
+            </a>
+          </figure>
+          <div class="project-link-title-box">
+            <div>
+              <div class="project-link-flip-front">
+                <h3>Data Management</h3>
+              </div>
+              <div class="project-link-flip-back">
+                <h3>View Details</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="project-item-box">
+        <a href="#0">
+          <figure id="galeria" class="post-img">
+            <a href="imagenes/projects-3.jpg" class="fancybox" title="Technology Solutions" rel="gallery1">
+              <img src="imagenes/projects-3.jpg" alt="">
+            </a>
+          </figure>
+          <div class="project-link-title-box">
+            <div>
+              <div class="project-link-flip-front">
+                <h3>Technology Solutions</h3>
+              </div>
+              <div class="project-link-flip-back">
+                <h3>View Details</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="project-item-box">
+        <a href="#0">
+          <figure id="galeria" class="post-img">
+            <a href="imagenes/projects-4.jpg" class="fancybox" title="Web Development" rel="gallery1">
+              <img src="imagenes/projects-4.jpg" alt="">
+            </a>
+          </figure>
+          <div class="project-link-title-box">
+            <div>
+              <div class="project-link-flip-front">
+                <h3>Web Development</h3>
+              </div>
+              <div class="project-link-flip-back">
+                <h3>View Details</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="project-item-box">
+        <a href="#0">
+          <figure id="galeria" class="post-img">
+            <a href="imagenes/projects-5.jpg" class="fancybox" title="Digital Marketing" rel="gallery1">
+              <img src="imagenes/projects-5.jpg" alt="">
+            </a>
+          </figure>
+          <div class="project-link-title-box">
+            <div>
+              <div class="project-link-flip-front">
+                <h3>Digital Marketing</h3>
+              </div>
+              <div class="project-link-flip-back">
+                <h3>View Details</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="project-item-box">
+        <a href="#0">
+          <figure id="galeria" class="post-img">
+            <a href="imagenes/projects-6.jpg" class="fancybox" title="Trouble Shooting" rel="gallery1">
+              <img src="imagenes/projects-6.jpg" alt="">
+            </a>
+          </figure>
+          <div class="project-link-title-box">
+            <div>
+              <div class="project-link-flip-front">
+                <h3>Trouble Shooting</h3>
+              </div>
+              <div class="project-link-flip-back">
+                <h3>View Details</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- botones 2 -->
+<section class="cont2">
+  <div class="contain ancho">
+    <a class="btn-principal" href="#">Get Free Quote</a>
+		<a class="btn-principal2" href="#">View All Project</a>
+  </div>
+</section>
+<!-- section 8 -->
+<section>
+    <div class="part5 ancho">
+      <h6>WHAT OUR CLIENT SAY</h6>
+      <h2>Resent Feedback</h2>
+    </div>
+</section>
+<section class="ancho" id="carrusel">
+    <div class="viewport">
+      <div>
+        <ul class="overview">
+          <li>
+            <div class="overview-box">
+              <div class="overview-box-cont">
+                <figure>
+                  <img src="imagenes/testimonial-1.jpg" alt="">
+                </figure>
+                <div>
+                  <h3>Stevie Wills</h3><span>Founder of Apple</span>
+                  <div class="rating-box">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <img class="fondo" src="imagenes/quote-1.svg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+          <li>
+            <div class="overview-box">
+              <div class="overview-box-cont">
+                <figure>
+                  <img src="imagenes/testimonial-2.jpg" alt="">
+                </figure>
+                <div>
+                  <h3>Rose Hopkins</h3><span>Founder of Apple</span>
+                  <div class="rating-box">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <img class="fondo" src="imagenes/quote-2.svg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+          <li>
+            <div class="overview-box">
+              <div class="overview-box-cont">
+                <figure>
+                  <img src="imagenes/testimonial-3.jpg" alt="">
+                </figure>
+                <div>
+                  <h3>Ellis Austin</h3><span>Founder of Apple</span>
+                  <div class="rating-box">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <img class="fondo" src="imagenes/quote-1.svg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+          <li>
+            <div class="overview-box">
+              <div class="overview-box-cont">
+                <figure>
+                  <img src="imagenes/testimonial-4.jpg" alt="">
+                </figure>
+                <div>
+                  <h3>Zahra Burnett</h3><span>Founder of Apple</span>
+                  <div class="rating-box">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <img class="fondo" src="imagenes/quote-2.svg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div>
+    <div class="contenedor_flechas">
+      <div class="jola">
+        <a class="buttons prev" href="#"><i class="fa-solid fa-arrow-left"></i></a>
+        <a class="buttons next" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section 9-->
+<section>
+  <div class="ancho">
+    <div class="part5">
+      <h6>OUR LATEST BLOG</h6>
+      <h2>News & Updates</h2>
+    </div>
+    <div class="cont9">
+      <div class="cont9-1">
+        <figure id="galeria" class="post-img">
+          <a href="imagenes/blog-1.jpg" class="fancybox" title="What Could 5g Change About The Way We Use Technology?" rel="gallery1">
+            <img src="imagenes/blog-1.jpg" alt="">
+          </a>
+        </figure>
+        <div class="cont9-2">
+          <h6>20 January - 2021 |</h6>
+          <a class="tech" href="#0">Technology</a>
+        </div>
+        <h3>What Could 5g Change About The Way We Use Technology?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
+        <div class="gola">
+          <a class="more" href="#0">+ Read More</a>
+        </div>
+      </div>
+      <div class="cont9-1">
+        <figure id="galeria" class="post-img">
+          <a href="imagenes/blog-2.jpg" class="fancybox" title="3 Factors To Consider When Choosing A Managed It Services" rel="gallery1">
+            <img src="imagenes/blog-2.jpg" alt="">
+          </a>
+        </figure>
+        <div class="cont9-2">
+          <h6>25 January - 2021 |</h6>
+          <a class="tech" href="#0">IT Services</a>
+        </div>
+        <h3>3 Factors To Consider When Choosing A Managed It Services</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
+        <div class="gola">
+          <a class="more" href="#0">+ Read More</a>
+        </div>
+      </div>
+      <div class="cont9-1">
+        <figure id="galeria" class="post-img">
+          <a href="imagenes/blog-3.jpg" class="fancybox" title="How To Quickly Shift To A Work-from-home Business Model" rel="gallery1">
+            <img src="imagenes/blog-3.jpg" alt="">
+          </a>
+        </figure>
+        <div class="cont9-2">
+          <h6>30 January - 2021 |</h6>
+          <a class="tech" href="#0">Business</a>
+        </div>
+        <h3>How To Quickly Shift To A Work-from-home Business Model</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
+        <div class="gola">
+          <a class="more" href="#0">+ Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- botones 3 -->
+<section>
+  <div class="contain ancho">
+    <a class="btn-principal" href="#">Get Free Quote</a>
+		<a class="btn-principal2" href="#">View All Blog</a>
+  </div>
+</section>
+<!-- section 10 -->
+<section>
+  <div class="banner2 ancho">
+      <div>
+        <h2>Discuss An Upcoming IT Project</h2>
+        <p>For A Free Consultation Call Today  +707 555-321</p>
+        <a href="tel:080707555321" class="btn">Contact Us Now</a>
+      </div>
+  </div>
+</section>
+<!-- section 11 -->
+<section>
+  <div class="carrusel2">
+    <div class="carrusel-items ancho">
+      <div class="carrusel-item">
+          <img src="imagenes/client-1.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-2.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-3.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-4.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-5.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-6.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-7.png" alt="">
+      </div>
+      <div class="carrusel-item">
+        <img src="imagenes/client-8.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<section class="prefooter">
+  <div class="ancho">
+    <div class="contpre">
+      <div class="foocont1">
+        <a class="footer-logo" href="#">
+          <img src="imagenes/logo.png" alt="logo">
+        </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur</p>
+        <ul class="footer-social-icon">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="foocont2">
+        <div class="footer-list">
+          <h5>Company</h5>
+          <a href="#0">About Us</a>
+          <a href="#0">Latest Project</a>
+          <a href="#0">IT Solutions</a>
+          <a href="#0">Digital Solutions</a>
+          <a href="#0">Team Member</a>
+          <a href="#0">Contact Us</a>
+        </div>
+      </div>
+        <div class="foocont3">
+          <div class="footer-list2">
+            <h5>Services</h5>
+            <a href="#0">IT Strategy</a>
+            <a href="#0">Network Services</a>
+            <a href="#0">Software Audits</a>
+            <a href="#0">Business Intelligence</a>
+            <a href="#0">Data Science</a>
+            <a href="#0">Virtual Workstation</a>
+          </div>
+        </div>
+        <div class="foocont4">
+          <div class="footer-list">
+            <h5>Contact Info</h5>
+            <div class="footer-contact-info">
+              <ul class="footer-contact-list">
+                <li><span>Address:</span> 526 Melrose Street, Water Mill, New York.</li>
+                <li><span>Phone:</span>  <a href="tel:080707555321">+080 707 555-321</a>
+                </li>
+                <li><span>Email:</span>  <a href="mailto:random@example.com">contact-info@example.com</a>
+                </li>
+              </ul>
+              <div class="footer-info-newsletter">
+                <form class="newsletter-form">
+                  <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required="" autocomplete="off">
+                  <button class="btn btn-principal" type="submit">Subscribe Now</button>
+                  <div id="validator-newsletter" class="form-result"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- footer final -->
+<footer>
+  <div class="ancho">
+    <div class="ultimo">
+      <p>© 2021 - All Rights Reserved - Designed by <span class="author-name">Juan Cerón.</span></p>
+      <ul>
+        <li> <a href="terms-condition.html">Terms & Conditions</a></li>
+        <li> <a href="privacy-policy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <!-- SCRIPT -->
+    <script
+      src="https://kit.fontawesome.com/7003421962.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="javas/funciones.js"></script>
+    <script src="javas/responsiveslides.min.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script src="javas/wow.min.js"></script>
+    <script src="javas/jquery-scrolltofixed.js"></script>
+    <script>
+        //ANIMACIONES
+        new WOW().init();
+        //ACORDEON
+$(".titulo1").click(function () {
+    $(".contenido1").slideToggle();
+    $(".mas1").toggleClass("desaparecer");
+});
+$(".titulo2").click(function () {
+    $(".contenido2").slideToggle();
+    $(".mas2").toggleClass("desaparecer");
+});
+$(".titulo3").click(function () {
+    $(".contenido3").slideToggle();
+    $(".mas3").toggleClass("desaparecer");
+});
+$(".titulo4").click(function () {
+    $(".contenido4").slideToggle();
+    $(".mas4").toggleClass("desaparecer");
+});
+    </script>
+    <!-- CARRUSEL -->
+    <script type="text/javascript" src="javas/jquery.tinycarousel.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function()
+      {
+          $('#carrusel').tinycarousel();
+      });
+  </script>
+  <!-- MODAL -->
+  <script>
+    var fondomodal = document.getElementById("modal");
+    var btn = document.getElementById("Btn1");
+    var cerrar = document.getElementById("cerrarbtn");
+
+    btn.onclick = function () {
+      fondomodal.style.display = "block";
+    };
+    cerrar.onclick = function () {
+      fondomodal.style.display = "none";
+    };
+    window.onclick = function (event) {
+      if (event.target == fondomodal) {
+        fondomodal.style.display = "none";
+      }
+    };
+  </script>
+</body>
+</html>
